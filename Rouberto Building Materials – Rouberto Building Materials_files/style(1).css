@@ -1,0 +1,80 @@
+/*
+Theme Name: megacorp-roubertos
+Author: Lauren Voysey for Benchmark Digital
+Version: 1.0.0
+Author URI: https://benchmark.digital
+Theme URI: https://benchmark.digital
+Description: Roubertos.co.za site
+License: copyright commercial
+License URI: https://themeforest.net/user/themexriver
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+Text Domain: megacorp
+Template: megacorp
+*/
+
+
+/*Disables read more buttons*/
+.disable-button a.theme-btn.read-more, .disable-button a.theme-btn-s2.read-more, .disable-button .offer-details {
+	display:none !important;
+}
+
+/*Offer Pages*/
+.offer-grids {
+	padding-top:5px;
+}
+
+.white {
+	color:#ffffff !important;
+}
+
+.footer-headings {
+	color:#ffffff !important;
+}
+
+.offer-section {
+	padding-bottom:0px !important;
+}
+
+.section-padding {
+	padding:50px 0px !important;
+}
+
+.page-title {
+	height:450px;
+}
+
+/*Sticky header remove for now*/
+
+nav.navigation.navbar.navbar-default.sticky-header {
+	display: none !important;
+}
+
+section.page-title {
+	height:460px;
+}
+
+body .details {
+    color: #fff;
+}
+
+.topbar-style-2 .topbar-contact-info > div > i {
+    font-size: 2.2rem;
+}
+
+.site-header .navigation ul {
+    padding-top: 16px;
+}
+
+.navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page-wrapper .site-footer .upper-footer {
+  background-color: #414141;
+  padding: 60px 0 !important;
+}
+
+.footer-widget .widget_text div#text-3 {
+    margin-top: 70px;
+}
